@@ -54,7 +54,7 @@ a manner than is not obscured (typically in a page footer):
 
 For command line software, the expectation is that the manual and the primary
 user interface offering usage information will include the copyright notice,
-inclduing link. For example:
+including link. For example:
 
 ```
 # toolname -h
