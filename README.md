@@ -30,6 +30,8 @@ SOFTWARE.
 
 ## What is different?
 
+As compared to the MIT License, this license is different in that:
+
 * A project name (optional) can be a part of the copyright notice.
 * A URL to the project's page is an exepcted part of the copyright notice
 * The following language has been added to the second clause: "additionally,
@@ -44,9 +46,9 @@ Given a copyright notice line of:
 Project Name, Copyright © 2024 Owner Name http://project.url
 ```
 
-As an example, to comply with the license, Software that presents HTML
-output to users would include a hyperlink as follows on the primary user
-interface page, in a manner than is not obscured (typically in a page footer):
+Software that presents HTML output to users would include a hyperlink as
+follows on the primary user interface page, in a manner than is not obscured
+(typically in a page footer), to comply with the license:
 
 ```
 <a href="http://project.url">Project Name, Copyright © 2024 Owner Name</a>
