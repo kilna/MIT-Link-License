@@ -3,7 +3,7 @@
 The MIT License, modified to require end-user copyright attribution with a link:
 
 ```
-MIT Link License (https://github.com/kilna/mit-link-license)
+MIT Link License (https://kilna.github.io/mit-link-license/)
 
 [ OPTIONAL PROJECT NAME, ] Copyright © [ YEAR ] [ OWNER ] [ URL ]
 
