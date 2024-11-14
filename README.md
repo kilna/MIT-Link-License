@@ -5,7 +5,7 @@ The MIT License, modified to require end-user copyright attribution with a link:
 ```
 MIT Link License  https://kilna.github.io/MIT-Link-License/
 
-[ OPTIONAL PROJECT NAME, ] Copyright © [ YEAR ] [ OWNER ] [ URL ]
+< OPTIONAL PROJECT NAME - > Copyright © < YEAR > < COPYRIGHT HOLDER > < URL >
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -43,7 +43,7 @@ As compared to the MIT License, this license is different in that:
 Given a copyright notice line of:
 
 ```
-Project Name, Copyright © 2024 Owner Name http://project.url
+Project Name - Copyright © 2024 Owner Name http://project.url
 ```
 
 Software that presents HTML output to users would include a hyperlink as
@@ -51,7 +51,7 @@ follows on the primary user interface page, in a manner than is not obscured
 (typically in a page footer), to comply with the license:
 
 ```
-<a href="http://project.url">Project Name, Copyright © 2024 Owner Name</a>
+<a href="http://project.url">Project Name - Copyright © 2024 Owner Name</a>
 ```
 
 This copyright notice can optionally be prefixed by a qualifying phrase to
@@ -67,7 +67,7 @@ USAGE: toolname [OPTIONS]
 
 ...
 
-Project Name, Copyright © 2024 Owner Name http://project.url
+Project Name - Copyright © 2024 Owner Name http://project.url
 ```
 
 ## Why a new license?
