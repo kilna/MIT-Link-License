@@ -1,4 +1,4 @@
-# [MIT Link License](https://kilna.github.io/mit-link-license/)
+# MIT Link License
 
 The MIT License, modified to require end-user copyright attribution with a link:
 
