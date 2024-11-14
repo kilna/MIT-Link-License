@@ -44,9 +44,9 @@ Given a copyright notice line of:
 Project Name, Copyright © 2024 Owner Name http://project.url
 ```
 
-As an example, for Software that presents HTML output to users, on the primary
-user interface page for the Software should include a hyperlink as follows, in
-a manner than is not obscured (typically in a page footer):
+As an example, to comply with the license, Software that presents HTML
+output to users would include a hyperlink as follows on the primary user
+interface page, in a manner than is not obscured (typically in a page footer):
 
 ```
 <a href="http://project.url">Project Name, Copyright © 2024 Owner Name</a>
@@ -55,9 +55,9 @@ a manner than is not obscured (typically in a page footer):
 This copyright notice can optionally be prefixed by a qualifying phrase to
 indicate the nature of the usage, like "Based on" or "Powered by".
 
-For command line software, the expectation is that the manual and the primary
-user interface offering usage information will include the copyright notice,
-including link. For example:
+For command line software, to comply with the license, the manual and the
+primary user interface offering usage information will include the copyright
+notice, including link. For example:
 
 ```
 # toolname -h
