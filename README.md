@@ -5,7 +5,8 @@ The MIT License, modified to require end-user copyright attribution with a link:
 ```
 MIT Link License  https://kilna.github.io/MIT-Link-License/
 
-<OPTIONAL PROJECT NAME> -> Copyright © <YEAR> <COPYRIGHT HOLDER> <URL>
+<PROJECT NAME> <URL>
+Copyright © <OPTIONAL YEAR> <COPYRIGHT HOLDER>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -14,10 +15,11 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software; additionally, the copyright
-notice with hyperlink or URL shall be presented in a clear and obvious manner to
-Software's end-users.
+The above project name(s) and URL(s), copyright notice(s), and this permission
+notice shall be included in all copies or substantial portions of the Software;
+additionally, the topmost copyright and all project names and URLs shall be
+presented in a clear and obvious manner to Software's end-users as a hyperlink
+or text.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -32,34 +34,45 @@ SOFTWARE.
 
 As compared to the MIT License, this license is different in that:
 
-* A project name (optional) can be a part of the copyright notice.
-* A URL to the project's page is an exepcted part of the copyright notice
-* The following language has been added to the second clause: "additionally,
-  the copyright notice with hyperlink or URL shall be presented in a clear and
-  obvious manner to Software's end-users"
+* A project name and URL appear with the copyright notice.
+* The second clause has been modified to require inclusion of the project name
+  and URL in derived versions of the software, and that the project name, URL,
+  any copyright must be presented to the end user.
+
+## Suitability for projects
+
+This license is suitable for user visible GUI, CLI and web content generating
+software, but it is not suitable for software lacking end-user facing content.
+This license is not appropriate for libraries, APIs, and other non-user-facing
+software.
 
 ## How is it expected to be implemented?
 
-Given a copyright notice line of:
+Given a project name and URL line, and copyright notice line of:
 
 ```
-Project Name - Copyright © 2024 Owner Name http://project.url
+Project Name http://project.url
+Copyright © 2024 Owner Name 
 ```
 
-Software that presents HTML output to users would include a hyperlink as
-follows on the primary user interface page, in a manner than is not obscured
-(typically in a page footer), to comply with the license:
+Software that presents graphical user-interactive output such as a GUI or web
+interface should include a hyperlink similar to the HTML that follows in a
+manner than is not obscured (typically in a page footer, splash screen, "about" 
+dialog), to comply with the license:
 
 ```
 <a href="http://project.url">Project Name - Copyright © 2024 Owner Name</a>
 ```
 
-This copyright notice can optionally be prefixed by a qualifying phrase to
-indicate the nature of the usage, like "Based on" or "Powered by".
+Or alternately:
 
-For command line software, to comply with the license, the manual and the
-primary user interface offering usage information will include the copyright
-notice, including link. For example:
+```
+<a href="http://project.url">Project Name</a> Copyright © 2024 Owner Name
+```
+
+For command line and non-graphical software, to comply with the license, the
+primary user interface and documentation offering usage information will
+include the project name(s) and URL(s), and copyright notice(s). For example:
 
 ```
 # toolname -h
@@ -67,15 +80,44 @@ USAGE: toolname [OPTIONS]
 
 ...
 
-Project Name - Copyright © 2024 Owner Name http://project.url
+Project Name http://project.url
+Copyright © 2024 Owner Name
+```
+
+### Modification and redistribution of software
+
+In the case of a modified and redistributed version of the Software, the
+modified version must include the project name(s) and url(s) and copyright
+notice(s) from the Software from which it was derived, added above the
+existing project name(s) and URL(s) and copyright(s), with adjoining
+language describing the nature of the license inheritance, e.g.:
+"based on", "forked from", "derived from", "powered by".
+
+```
+New Project Name http://newproject.url
+Copyright © 2025 New Owner Name
+
+Based on
+
+Project Name http://project.url
+Copyright © 2024 Owner Name 
+```
+
+Likewise, all project names and URLs must be presented to end-users, along with
+at least the topmost copyright, e.g.:
+
+```
+<a href="http://project.url">New Project Name</a> Copyright © 2025 New Owner Name
+Based on <a href="http://project.url">Project Name</a>
 ```
 
 ## Why a new license?
 
-As best as I could tell, there were no modified MIT licenses that:
+As best as I could tell, there were no reusable, modified MIT licenses that:
 
 * Requires copyright attribution to be presented clearly to end-users
 * Enforces the presentation of a URL or hyperlink as a part of the attribution
+* Provides a clear way for inherited projects to attribute predecessors
 * Is indifferent to the implementation of the software being commercial in nature
 * Retains all of the other liberties and protections of the MIT license 
 
